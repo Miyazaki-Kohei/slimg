@@ -1,5 +1,5 @@
 {
-  "name": "@Miyazaki-Kohei/slimg",
+  "name": "@miyakoh/slimg",
   "version": "0.1.0",
   "description": "AI-powered image generator CLI using Google Imagen 4 with Gemini prompt enhancement",
   "type": "module",
