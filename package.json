@@ -1,5 +1,5 @@
 {
-  "name": "@miyakoh/slimg",
+  "name": "@Miyazaki-Kohei/slimg",
   "version": "0.1.0",
   "description": "AI-powered image generator CLI using Google Imagen 4 with Gemini prompt enhancement",
   "type": "module",
@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miyakoh/slimg.git"
+    "url": "git+https://github.com/Miyazaki-Kohei/slimg.git"
   },
-  "homepage": "https://github.com/miyakoh/slimg#readme",
+  "homepage": "https://github.com/Miyazaki-Kohei/slimg#readme",
   "bugs": {
-    "url": "https://github.com/miyakoh/slimg/issues"
+    "url": "https://github.com/Miyazaki-Kohei/slimg/issues"
   },
   "dependencies": {
     "@google/genai": "^1.0.0",
