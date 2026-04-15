@@ -66,5 +66,4 @@ npx @miyakoh/slimg \
 ```
 
 ## 環境変数
-
-`GOOGLE_API_KEY` または `GEMINI_API_KEY` のいずれかを設定する（前者を優先）。
+`GEMINI_API_KEY` 及び `GOOGLE_API_KEY` のいずれかを設定する（前者を優先）。
