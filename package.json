@@ -1,0 +1,57 @@
+{
+  "name": "@miyakoh/slimg",
+  "version": "0.1.0",
+  "description": "AI-powered image generator CLI using Google Imagen 4 with Gemini prompt enhancement",
+  "type": "module",
+  "main": "./dist/imagen.js",
+  "types": "./dist/imagen.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/imagen.js",
+      "types": "./dist/imagen.d.ts"
+    }
+  },
+  "bin": {
+    "slimg": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "imagen",
+    "google",
+    "gemini",
+    "image-generation",
+    "ai",
+    "cli",
+    "imagen4"
+  ],
+  "author": "miyakoh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyakoh/slimg.git"
+  },
+  "homepage": "https://github.com/miyakoh/slimg#readme",
+  "bugs": {
+    "url": "https://github.com/miyakoh/slimg/issues"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "commander": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "dist"
+  ]
+}
